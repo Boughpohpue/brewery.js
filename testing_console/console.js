@@ -21,11 +21,10 @@
         consolePrint(message, 'error');
     }
     consolePrint = function (message, logType) {
-        if (typeof message == 'object') {
-            logger.innerHTML += `<span class='${logType}'>` + (JSON && JSON.stringify ? JSON.stringify(message) : message) + '</span><br />';
-        } else {
-            logger.innerHTML += `<span class='${logType}'>` + message.replace("\n", "<br/>") + '</span><br />';
-        }
+        let msg = typeof message == 'object' && JSON && JSON.stringify
+          ? JSON.stringify(message, null, 3) :
+          message;
+        logger.innerHTML += `<span class='${logType}'>${msg}</span><br />`;
     }
     loadScriptFile = function (url, type, callback) {
         var head = document.head;
