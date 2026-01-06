@@ -1,4 +1,4 @@
-import { nameof, Is } from '../lib/just.js-1.0.1.js';
+import { nameof, Is } from './.external/just.js-1.0.1.js';
 
 class CookBook {
   static #_index = new Map();

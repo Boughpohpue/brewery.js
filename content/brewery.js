@@ -1,6 +1,6 @@
-import { nameof, Is, Bitwiser } from '../lib/just.js-1.0.1.js';
+import { nameof, Is, Bitwiser } from './.external/just.js-1.0.1.js';
 import IngredientAttributes from './ingredient_attributes.js';
-import CookBook from './cookbook.js';
+import CookBook from './cook_book.js';
 
 export class Brewery {
   static brew(potionName, supplies = null) {

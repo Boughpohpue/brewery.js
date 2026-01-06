@@ -1,4 +1,4 @@
-import { IngredientAttributes, Ingredient, Recipe, CookBook } from './brewery-1.0.1.js';
+import { IngredientAttributes, Ingredient, Recipe, CookBook } from '../compiled/brewery-1.0.1.js';
 
 
 /* POTIONS */

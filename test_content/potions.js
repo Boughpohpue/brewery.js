@@ -1,7 +1,7 @@
-import IngredientAttributes from './ingredient_attributes.js';
-import Ingredient from './ingredient.js';
-import Recipe from './recipe.js';
-import CookBook from './cookbook.js';
+import IngredientAttributes from '../content/ingredient_attributes.js';
+import Ingredient from '../content/ingredient.js';
+import Recipe from '../content/recipe.js';
+import CookBook from '../content/cook_book.js';
 
 export class BasicPotion {
   static _foo = 12;

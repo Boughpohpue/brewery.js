@@ -205,6 +205,9 @@ export class Bitwiser {
 /* <------------------------------------------------------------< bitwiser.js <---<<< */
 
 /* >>>---> matcher.js >-------------------------------------------------------------> */
+/* Prerequisites */
+import extendObjectPrototype from './jxtensions-1.0.1.js';
+extendObjectPrototype();
 /* Just a bit wild */
 export class Wild {
   static Surely = "+";

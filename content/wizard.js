@@ -1,4 +1,4 @@
-import { nameof, Is, Matcher } from '../lib/just.js-1.0.1.js';
+import { nameof, Is, Matcher } from './.external/just.js-1.0.1.js';
 import Brewery from './brewery.js';
 
 export class Wizard {
